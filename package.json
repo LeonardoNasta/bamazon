@@ -1,0 +1,24 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "like amazon but [B]",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "node bamazonCustomer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeonardoNasta/bamazon.git"
+  },
+  "author": "Leonardo Nasta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeonardoNasta/bamazon/issues"
+  },
+  "homepage": "https://github.com/LeonardoNasta/bamazon#readme",
+  "dependencies": {
+    "cli": "^1.0.1",
+    "cli-table": "^0.3.1",
+    "tables": "^0.1.0"
+  }
+}
