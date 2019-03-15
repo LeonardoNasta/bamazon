@@ -90,9 +90,8 @@ function askQuestions() {
               (res[0].stock_quantity - quantity) +
               " WHERE id = " +
               product;
-            connection.query(updateSQL, function(err, res) {
+            connection.query(updateSQL, function(err, updateRes) {
               if (err) throw err;
-
               console.log(
                 "Your order has been placed! Your total is $" +
                   res[0].price * quantity

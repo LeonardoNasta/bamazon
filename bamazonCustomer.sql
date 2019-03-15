@@ -10,7 +10,7 @@ CREATE TABLE products (
 id integer not null auto_increment,
 product_name varchar (50) not null,
 department_name varchar (50) not null,
-price integer default 0,
+price double default 0,
 stock_quantity integer default 0,
 primary key (id)
 );
