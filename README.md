@@ -1,5 +1,4 @@
 # THE MUSIC STORE
-**IN PROGRESS**
 
 The Bamazon Music Store is a simple command line app where you can buy, or atleast pretend to buy, some of your favorite songs!
 
